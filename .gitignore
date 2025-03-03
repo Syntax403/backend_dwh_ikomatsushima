@@ -45,3 +45,4 @@ media/
 # Archivos específicos de MacOS y Windows
 .DS_Store
 Thumbs.db
+backend_dwh_ikomatsushima/.env
