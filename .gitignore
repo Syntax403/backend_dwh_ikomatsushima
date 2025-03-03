@@ -1,0 +1,47 @@
+# Archivos de entorno
+.env
+.env.local
+.env.*.local
+
+# Archivos de compilación de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de dependencias
+venv/
+env/
+*.egg-info/
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Logs y archivos temporales
+*.log
+logs/
+*.swp
+*.swo
+*.swn
+*.bak
+
+# Base de datos SQLite
+*.sqlite3
+db.sqlite3
+
+# Archivos de migraciones de Django (puedes ignorarlos si controlas las migraciones desde código)
+**/migrations/*.pyc
+**/migrations/*.py~
+
+# Archivos estáticos y de cache
+staticfiles/
+media/
+*.tar
+*.zip
+
+# Archivos de configuración de IDEs
+.vscode/
+.idea/
+
+# Archivos específicos de MacOS y Windows
+.DS_Store
+Thumbs.db
